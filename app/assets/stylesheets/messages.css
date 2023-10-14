@@ -1,0 +1,171 @@
+/* 全体 */
+.wrapper{
+  display: flex;
+}
+
+/* サイドバー */
+/* サイドバー全体 */
+.side-bar-container{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+/* サイドバーヘッダー */
+.side-bar-header{
+  height: 100px;
+  padding: 0 20px;
+}
+
+/* サイドバーメイン */
+.side-bar-main{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 20px 20px 0;
+  overflow: scroll;
+}
+
+.side-bar-holder{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.side-bar__user-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.side-bar__new-chat-btn{
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+}
+
+.side-bar__new-chat-btn a{
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.room-name{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.room-name a{
+  color: white;
+  text-decoration: none;
+}
+
+/* メイン */
+/* メイン全体 */
+.main-container{
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.main-header{
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-chat{
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.main-footer{
+  height: 90px;
+  background-color: #dddddd;  
+  padding: 20px 40px;
+  display: flex;
+}
+
+/* メインヘッダー */
+.main-header__room-name{
+  padding-top: 36px;
+  font-size: 24px;
+  color: #333;
+}
+
+.main-header__exit-btn{
+  margin-top: 40px;
+}
+
+.main-header__exit-btn__link a{
+  padding: 20px;
+  border: solid 1px darkred;
+  text-decoration: none;
+  color: darkred;
+}
+
+/* メインメッセージ一覧画面 */
+.main-chat__message-holder{
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+.main-chat__message-title{
+  display: flex;
+}
+
+.main-chat__message-user-name{
+  font-size: 16px;
+  color: #434a54;
+  margin-right: 10px;
+}
+
+.main-chat__message-date{
+  font-size: 12px;
+  color: #999;
+}
+
+.main-chat__message-content{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #434a54;
+}
+
+/* メインフッター */
+.main-footer-form{
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.form-message{
+  padding-left: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+
+.main-footer__send{
+  height: 50px;
+  padding: 0 20px;
+  color: white;
+  background-color: #38aef0;
+  margin-left: 15px;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
