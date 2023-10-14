@@ -1,6 +1,6 @@
 <div class="wrapper">
   <div class="side-bar-container">
-    <%= render "side_bar" %>
+    <%= render partial: 'side_bar', collection: @users%>
   </div>
   <div class="main-container">
     <%= render "main_chat" %>
